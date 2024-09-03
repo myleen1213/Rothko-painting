@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+}
+
+
+.canvas{
+width:500px;
+height:600px;
+background-color: #4d0f00;
+overflow:hidden;
+filter:blur(2px);
+}
+
+.frame{
+    border: 50px solid black;
+    width: 500px;
+    padding:50px;
+    /*Centers the frame down, and centers it on the page*/
+    margin: 20px auto;
+}
+
+.one{
+    height:150px;
+    width: 425px;
+    background-color: #efb762;
+    margin: 20px auto;
+    box-shadow: 0 0 3px 3px #efb762;
+    border-radius:8px 10px;
+    transform:rotate(-0.6deg);
+}
+
+.two{
+    width:475px;
+    height:200px;
+    background-color: #8f0401;
+    margin:0 auto 20px;
+    box-shadow: 0 0 3px 3px #8f0401;
+    border-radius: 8px 10px;
+    transform: rotate(0.4deg);
+}
+
+.one .two{
+filter:blur(1px);
+
+}
+
+.three{
+    width:91%;
+    height:28%;
+    background-color: #b20403;
+    /*centers*/
+    margin:auto;
+    filter:blur(2px);
+    border-radius: 20px 25px 60px 12px;
+    /*counter clockwise*/
+    transform: rotate(-0.2deg)
+}
